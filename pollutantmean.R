@@ -31,7 +31,7 @@ pollutantmean <- function(directory,pollutant,id,removeNA=TRUE) {
   
   ## Return the mean of the pollutant across all monitors list
   ## in the 'id' vector (ignoring NA values)
-  defaultD<-paste("D:/2014/FREE_COURSES_&_LEARNING_THINGS/BIG_Data_COURSES/COURSERA_R_Prog/WEEK2/",directory,sep="")
+  defaultD<-paste("C:/Users/Hp/Documents/GitHub/Deepani/ProgrammingAssignment2/",directory,sep="")
   setwd(defaultD)
   monitor<-matrix(nrow=332,ncol=2)
 
