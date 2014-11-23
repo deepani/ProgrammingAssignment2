@@ -50,7 +50,7 @@ else if(pollutant=="nitrate"){ meansA<- mean(monitor[,2],na.rm=removeNA)}
 else { print ("check spelling")}
 meansA
 }
-
+ 
 pollutantmean("specdata","nitrate",70:72)
 pollutantmean("specdata","sulfate",1:10)
 pollutantmean("specdata","sulfate",23)
